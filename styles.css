@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    width: 100%;
+    color: pink;
+}
+h2 {
+    color: #66ff00;
+}
+img {
+    width: 400px;
+    height: auto;
+}
+.title {
+    color: red;
+    font-weight: bold;
+}
+a {
+    font-size: 25px;
+}
