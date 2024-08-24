@@ -1,9 +1,20 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://plus.unsplash.com/premium_photo-1672153937750-9ea567e94026?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29va2luZ3xlbnwwfHwwfHx8MA%3D%3D);
+    background-size: cover;
+}
 
 h1 {
-    text-align: center;
-    color: pink;
+    text-align: left;
+    color: white;
     font-family: sans-serif;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 1px whitesmoke;
+    text-decoration: underline;
 
 }
 h2, h3 {
@@ -11,29 +22,75 @@ h2, h3 {
     text-align: center;
     text-decoration: underline;
     text-decoration-color: black;
-    font-size: 25px;
+    font-size: 20px;
 }
 img {
-    width: 300px;
-    height: auto;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 60px;
+    
 }
 .title {
-    color: red;
+    color: white;
     font-weight: bold;
+    font-size: 40px;
+    
 }
+
+div {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    padding: 10px;
+}
+
 a {
-    font-size: 25px;
+    font-size: 40px;
     text-align: center;
-    display: block;
+    color: white;
+    vertical-align: middle;
 }
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: pink;
+}
+
 .parent {
     margin-left: 40%;
 }
 
 p {
     text-align: center;
+    color: white;
+    background-color: brown;
+    padding: 10px;
+    margin-left: 250px;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+ul {
+    text-align: center;
+    color: white;
+    background-color: brown;
+    padding: 10px;
+    padding-left: 20px;
+    display: inline-block;
+    border-radius: 15px 0 0 15px;
+}
+
+ol {
+    text-align: center;
+    color: white;
+    background-color: brown;
+    padding: 10px;
+    padding-left: 20px;
+    display: inline-block;
+    border-radius: 0 15px 15px 0;
 }
